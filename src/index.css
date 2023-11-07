@@ -1,0 +1,105 @@
+.search-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-left: 800px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #dddddd;
+}
+
+.main-dashboard{
+  background-color: rgb(207, 205, 205);
+  border: black;
+  height: 490px;
+
+}
+
+.container-1{
+  display: inline-flex;
+  color: rgb(97, 87, 107);
+  height: 250px;
+  width: 50%;
+  flex-direction: row;
+}
+
+.box{
+  height: 90%;
+  padding: 1px;
+  width: 420px;
+  margin: 8px;
+  border-radius: 5%;
+  gap: 10px;
+  border-style: solid;
+  border-width:thin;
+  align-content: center;
+  text-align: center;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+text {
+  font-family: lato;
+  font-size: 10px;
+  fill: #333333;
+}
+.grid path {
+  stroke-width: 0;
+  stroke: #333333;
+}
+.grid .tick line {
+  stroke: #333333;
+  stroke-width: 0.3px;
+  stroke-opacity: 0.3;
+}
+text.chart-title {
+  font-size: 14px;
+  font-weight: bold;
+  fill:#222222
+}
+text.chart-label {
+  font-size: 10px;
+  font-weight: 400;
+  fill: #999999;
+}
+text.chart-source {
+  font-size: 8px;
+  fill: #999999;
+}
+text.copyright {
+  font-size: 8px;
+  fill: #999999;
+}
+.tooltip {
+  background-color: #ffffff;
+  font-family: lato;
+  font-size: 11px;
+  padding: 4px;
+  color: #666666;
+  border: none;
+  box-shadow: 0px 0px 3px 0px #E6E6E6;
+}
+.legend{
+  font-size: 10px;
+}
